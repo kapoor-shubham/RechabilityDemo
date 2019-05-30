@@ -14,6 +14,9 @@
 		64A1B659229F8C7500DC1580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64A1B657229F8C7500DC1580 /* LaunchScreen.storyboard */; };
 		64A1B664229F8C7500DC1580 /* RechableDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B663229F8C7500DC1580 /* RechableDemoTests.swift */; };
 		64A1B66F229F8C7500DC1580 /* RechableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B66E229F8C7500DC1580 /* RechableDemoUITests.swift */; };
+		64A1B67D229F8C8300DC1580 /* RecahbilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B67C229F8C8300DC1580 /* RecahbilityManager.swift */; };
+		64A1B67F229F8D2000DC1580 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B67E229F8D2000DC1580 /* Helper.swift */; };
+		64A1B681229F941200DC1580 /* UIWindiowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B680229F941200DC1580 /* UIWindiowExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		64A1B66A229F8C7500DC1580 /* RechableDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RechableDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64A1B66E229F8C7500DC1580 /* RechableDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RechableDemoUITests.swift; sourceTree = "<group>"; };
 		64A1B670229F8C7500DC1580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64A1B67C229F8C8300DC1580 /* RecahbilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecahbilityManager.swift; sourceTree = "<group>"; };
+		64A1B67E229F8D2000DC1580 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		64A1B680229F941200DC1580 /* UIWindiowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindiowExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				64A1B64E229F8C7400DC1580 /* AppDelegate.swift */,
 				64A1B650229F8C7400DC1580 /* ViewController.swift */,
+				64A1B67E229F8D2000DC1580 /* Helper.swift */,
+				64A1B680229F941200DC1580 /* UIWindiowExtension.swift */,
+				64A1B67C229F8C8300DC1580 /* RecahbilityManager.swift */,
 				64A1B652229F8C7400DC1580 /* Main.storyboard */,
 				64A1B655229F8C7500DC1580 /* Assets.xcassets */,
 				64A1B657229F8C7500DC1580 /* LaunchScreen.storyboard */,
@@ -257,7 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A1B651229F8C7400DC1580 /* ViewController.swift in Sources */,
+				64A1B67D229F8C8300DC1580 /* RecahbilityManager.swift in Sources */,
 				64A1B64F229F8C7400DC1580 /* AppDelegate.swift in Sources */,
+				64A1B681229F941200DC1580 /* UIWindiowExtension.swift in Sources */,
+				64A1B67F229F8D2000DC1580 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,14 +444,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
 				INFOPLIST_FILE = RechableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.a1distribute.RechableDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a1debug.myHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.a1debug.myHealth.E.Development.profile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -449,14 +465,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 2KAL3NND99;
 				INFOPLIST_FILE = RechableDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.a1distribute.RechableDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.a1debug.myHealth;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = com.a1debug.myHealth.E.Development.profile;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
