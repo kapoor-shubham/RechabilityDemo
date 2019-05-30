@@ -1,5 +1,5 @@
 //
-//  UIWindiowExtension.swift
+//  Extensions.swift
 //  RechableDemo
 //
 //  Created by mpllc on 5/30/19.
@@ -36,3 +36,4 @@ extension UIViewController {
         }
     }
 }
+

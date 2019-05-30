@@ -16,7 +16,7 @@
 		64A1B66F229F8C7500DC1580 /* RechableDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B66E229F8C7500DC1580 /* RechableDemoUITests.swift */; };
 		64A1B67D229F8C8300DC1580 /* RecahbilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B67C229F8C8300DC1580 /* RecahbilityManager.swift */; };
 		64A1B67F229F8D2000DC1580 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B67E229F8D2000DC1580 /* Helper.swift */; };
-		64A1B681229F941200DC1580 /* UIWindiowExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B680229F941200DC1580 /* UIWindiowExtension.swift */; };
+		64A1B683229FB76400DC1580 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A1B682229FB76400DC1580 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		64A1B670229F8C7500DC1580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64A1B67C229F8C8300DC1580 /* RecahbilityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecahbilityManager.swift; sourceTree = "<group>"; };
 		64A1B67E229F8D2000DC1580 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		64A1B680229F941200DC1580 /* UIWindiowExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindiowExtension.swift; sourceTree = "<group>"; };
+		64A1B682229FB76400DC1580 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,7 +106,7 @@
 				64A1B64E229F8C7400DC1580 /* AppDelegate.swift */,
 				64A1B650229F8C7400DC1580 /* ViewController.swift */,
 				64A1B67E229F8D2000DC1580 /* Helper.swift */,
-				64A1B680229F941200DC1580 /* UIWindiowExtension.swift */,
+				64A1B682229FB76400DC1580 /* Extensions.swift */,
 				64A1B67C229F8C8300DC1580 /* RecahbilityManager.swift */,
 				64A1B652229F8C7400DC1580 /* Main.storyboard */,
 				64A1B655229F8C7500DC1580 /* Assets.xcassets */,
@@ -266,9 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				64A1B651229F8C7400DC1580 /* ViewController.swift in Sources */,
+				64A1B683229FB76400DC1580 /* Extensions.swift in Sources */,
 				64A1B67D229F8C8300DC1580 /* RecahbilityManager.swift in Sources */,
 				64A1B64F229F8C7400DC1580 /* AppDelegate.swift in Sources */,
-				64A1B681229F941200DC1580 /* UIWindiowExtension.swift in Sources */,
 				64A1B67F229F8D2000DC1580 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
